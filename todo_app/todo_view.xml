@@ -9,7 +9,7 @@
         <form string="To-do Task">
           <header>
             <!-- Button go here -->
-            <button name="do_toggle_done" type="object"
+            <button name="to_toggle_done" type="object"
                     string="Toggle Done" class="oe_highlight" />
             <button name="do_clear_done" type="object"
                     string="Clear All Done" />
