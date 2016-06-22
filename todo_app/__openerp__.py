@@ -4,4 +4,5 @@
     'author': 'Brady Bao',
     'depends': ['mail'],
     'application': True,
+    'data': ['todo_view.xml'],
 }
