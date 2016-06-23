@@ -50,7 +50,7 @@
                   domain= "[('is_done', '=' ,False)]" />
           <filter string="Done"
                   domain="[('is_done', '!=' ,False)]"/>
-          </search>]
+          </search>
       </field>
     </record>
 
