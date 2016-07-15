@@ -42,11 +42,13 @@
       <field name="inherit_id" ref="todo_app.view_filter_todo_task"/>
       <field name="arch" type="xml">
         <field name="name" position="after">
+        <search>
           <field name="user_id"/>
           <filter name="filter_my_tasks" string="My Tasks"
                   domain="[('user_id', 'in', [uid, False])]" />
           <filter name="filter_not_assigned" string="Not Assigned"
                   domain="[('user_id' ,'=' ,False)]" />
+        </search>
         </field>
       </field>
     </reocrd>
